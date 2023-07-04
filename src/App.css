@@ -1,5 +1,5 @@
 :root {
-  --primary: #729fff;
+  --primary: #96b7ff;
   --secondary: #cfe2ff;
 
 }
@@ -9,8 +9,43 @@ body {
   background-color: #d5d5d5;
 }
 
+main {
+  padding: 20px;
+}
+
 nav {
-  padding: 10px;
+  padding: 20px 10px 20px 20%;
+}
+
+.main-cont-sm {
+  background-color: var(--primary);
+  border-radius: 10px;
+  width: 98%;
+  height: 100px;
+  margin: 0 0 30px 20px;
+}
+
+.main-cont-lg {
+  background-color: var(--primary);
+  border-radius: 10px;
+  width: 80%;
+  height: 85vh;
+  margin: auto;
+}
+
+.main-col-sm {
+  height: 820px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.main-col-sm::-webkit-scrollbar {
+  display: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #0a58ca;
 }
 
 .profile-icon {
