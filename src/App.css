@@ -48,7 +48,28 @@ nav {
   color: #0a58ca;
 }
 
-.profile-icon {
+nav ul li {
+  list-style-type: none;
+}
+
+.dropdown {
+  background-color: #efefef;
+  text-align: center;
+  width: 80px;
+  height: 60px;
+  text-decoration: none;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown hr {
+  margin: 0;
+}
+
+#profile-icon {
   border-radius: 50%;
   background-color: var(--primary);
   padding: 5px;
