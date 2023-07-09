@@ -1,7 +1,6 @@
 :root {
   --primary: #96b7ff;
   --secondary: #cfe2ff;
-
 }
 
 body {
@@ -29,12 +28,12 @@ nav {
   background-color: var(--primary);
   border-radius: 10px;
   width: 80%;
-  height: 85vh;
+  height: 80vh;
   margin: auto;
 }
 
 .main-col-sm {
-  height: 820px;
+  height: 80vh;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;

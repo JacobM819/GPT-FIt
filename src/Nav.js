@@ -2,8 +2,11 @@ export default function Nav() {
 
     // let profile = document.getElementById("profile-icon");
     function hideDropdown() {
-        let profile = document.getElementById("profile-icon")
-        profile.hidden = profile.hidden !== true;
+
+        let icon = document.getElementById("profile-icon");
+
+        // let profile = document.getElementById("profile-icon")
+        // profile.hidden = profile.hidden !== true;
     }
     // document.getElementById("profile-icon").addEventListener("click", hideDropdown)
 
