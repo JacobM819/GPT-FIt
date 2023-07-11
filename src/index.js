@@ -1,20 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom'
 import './bootstrap/css/bootstrap.css'
 import './bootstrap/css/bootstrap-grid.css'
 import './bootstrap/css/bootstrap-reboot.css'
-import App from './App';
 import Preloader from './Preloader.js'
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Nav from "./pages/Nav.js";
+import Home from "./pages/Home.js";
+import Workouts from "./pages/Workouts.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
       {/*<Preloader/>*/}
-      <App/>
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<Nav/>}>
+                  <Route index element={<Home/>}></Route>
+                  <Route path="workouts" element={<Workouts/>}></Route>
+                  
+              </Route>
+          </Routes>
       </BrowserRouter>
   </React.StrictMode>
 );
