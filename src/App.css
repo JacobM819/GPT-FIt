@@ -13,7 +13,7 @@ main {
 }
 
 nav {
-  padding: 20px 10px 20px 20%;
+  padding: 20px 10px 20px 4%;
 }
 
 .main-cont-sm {
@@ -43,9 +43,15 @@ nav {
 }
 
 .link {
+  font-size: calc(1.3rem + 0.6vw);
   text-decoration: none;
   color: #0a58ca;
 }
+/*@media (min-width: 1200px) {*/
+/*  .link {*/
+/*    font-size: 1.25rem;*/
+/*  }*/
+/*}*/
 
 nav ul li {
   list-style-type: none;
