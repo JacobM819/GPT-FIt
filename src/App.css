@@ -131,6 +131,12 @@ nav ul li {
   z-index: -2;
 }
 
+#output-cont {
+  padding-top: 2%;
+  width: 80%;
+  height: 96%;
+}
+
 @keyframes float {
   0% {
     transform: translatey(0px);
