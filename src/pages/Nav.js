@@ -23,8 +23,9 @@ export default function Nav() {
                 <div style={{width: "30%"}}><h2>*Logo</h2></div>
                 <div className={"d-flex"} style={{width:"95%"}}>
                     <span style={{marginRight:"70px"}}><Link className={"link"} to={"/"} onClick={setActive("Dash")}><h5>Dashboard</h5></Link></span>
-                    <span style={{marginRight:"70px"}}><Link className={"link"} to={"/workouts"}><h5>Workouts</h5></Link></span>
+                    <span style={{marginRight:"70px"}}><Link className={"link"} to={"workouts"}><h5>Workouts</h5></Link></span>
                     <span style={{marginRight:"70px"}}><Link className={"link"} to={"goals"}><h5>My Goals</h5></Link></span>
+                    <span style={{marginRight:"70px"}}><Link className={"link"} to={"login"}><h5>Login</h5></Link></span>
                     <span ><Link className={"link"} to={"/coach"}><h5>AI Coach</h5></Link></span>
                 </div>
                 <span id={"profile-icon"}><b>J</b></span>

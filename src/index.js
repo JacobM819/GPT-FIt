@@ -12,6 +12,7 @@ import Home from "./pages/Home.js";
 import Workouts from "./pages/Workouts.js";
 import Goals from "./pages/Goals.js";
 import Coach from "./pages/Coach.js";
+import Login from "./pages/Login.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
                   <Route path="workouts" element={<Workouts/>}></Route>
                   <Route path={"goals"} element={<Goals/>}></Route>
                   <Route path={"coach"} element={<Coach/>}></Route>
+                  <Route path={"login"} element={<Login/>}></Route>
               </Route>
           </Routes>
       </BrowserRouter>
